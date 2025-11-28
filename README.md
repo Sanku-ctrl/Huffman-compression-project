@@ -238,7 +238,7 @@ python demo.py
 4. **Bit Padding**: Last byte padded with zeros if not full
 5. **File Validation**: Magic number prevents decompressing wrong files
 
-## 📁 File Structure
+## File Structure
 
 ```
 huffman-project/
@@ -263,7 +263,7 @@ huffman-project/
     └── sample.huff        # Compressed file
 ```
 
-## 🏗️ Building & Testing
+## Building & Testing
 
 ### Build Commands
 
@@ -302,7 +302,7 @@ cd python
 python demo.py
 ```
 
-## 📊 Examples
+## Examples
 
 ### Example 1: Compressing Text
 
@@ -357,7 +357,7 @@ if decompress(str(output_file), str(restored_file)):
     print("File restored successfully")
 ```
 
-## 📈 Performance Considerations
+## Performance Considerations
 
 ### Compression Ratio by File Type
 
@@ -382,7 +382,7 @@ On modern hardware (single-threaded):
 3. **Run-Length Encoding**: Preprocess repetitive data
 4. **Dictionary Compression**: Combine with LZ algorithms
 
-## 🤝 Contributing
+## Contributing
 
 This is a learning project. Feel free to:
 - Report issues
@@ -400,7 +400,7 @@ This is a learning project. Feel free to:
 - [ ] Compression statistics and analysis
 - [ ] Support for directory compression (tar-like)
 
-## 📝 License
+## License
 
 This project is provided as-is for educational purposes.
 
