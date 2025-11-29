@@ -242,7 +242,7 @@ python demo.py
 
 ```
 huffman-project/
-├── Makefile                 # Build configuration
+├── Makefile                # Build configuration
 ├── README.md               # This file
 ├── src/
 │   ├── huffman.h          # Core data structures and API
@@ -251,17 +251,9 @@ huffman-project/
 ├── python/
 │   ├── wrapper.py         # Python ctypes wrapper
 │   └── demo.py            # Python demo script
-├── bin/                   # Output directory (generated)
-│   ├── huffman            # CLI executable
-│   └── libhuffman.so      # Shared library
-├── build/                 # Object files directory (generated)
-│   ├── huffman.o
-│   └── main.o
 └── test_files/            # Test and example files
-    ├── sample.txt         # Sample input
-    ├── sample_large.txt   # Larger test file
-    └── sample.huff        # Compressed file
-```
+    └── sample.txt         # Sample input
+ ```
 
 ## Building & Testing
 
