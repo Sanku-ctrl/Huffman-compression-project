@@ -399,5 +399,3 @@ This project is provided as-is for educational purposes.
 ---
 
 **Questions or Issues?** Feel free to open an issue.
-
-**Last Updated:** November 28, 2025
