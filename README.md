@@ -242,8 +242,8 @@ python demo.py
 
 ```
 huffman-project/
-├── Makefile                # Build configuration
-├── README.md               # This file
+├── Makefile               # Build configuration
+├── README.md              # This file
 ├── src/
 │   ├── huffman.h          # Core data structures and API
 │   ├── huffman.c          # Algorithm implementation
@@ -252,7 +252,8 @@ huffman-project/
 │   ├── wrapper.py         # Python ctypes wrapper
 │   └── demo.py            # Python demo script
 └── test_files/            # Test and example files
-    └── sample.txt         # Sample input
+    ├── sample_large.txt   # Large UTF-8 Plain text file 
+    └── sample.txt         # Sample input (overhead issue as it is a small file)
  ```
 
 ## Building & Testing
@@ -285,7 +286,7 @@ ls -lh test_files/sample_large.txt test_files/sample.huff
 
 # Decompress and verify
 ./bin/huffman -d test_files/sample.huff test_files/sample.out
-cmp test_files/sample_large.txt test_files/sample.out && echo "✓ Test passed" || echo "✗ Test failed"
+cmp test_files/sample_large.txt test_files/sample.out && echo "Test passed" || echo "Test failed"
 ```
 
 **Python Test:**
