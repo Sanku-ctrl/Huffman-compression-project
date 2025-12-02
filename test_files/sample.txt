@@ -1,0 +1,3 @@
+This is a sample text file for the Huffman coding project.
+It contains several characters that repeat, which makes it a good candidate for compression.
+Huffman coding is a lossless data compression algorithm.
